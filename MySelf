@@ -1,0 +1,209 @@
+ <!DOCTYPE html>
+  <html>
+  <title>SITI RATNA SARI</title>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <!-- my CSS -->
+      <link rel="stylesheet" href="css/style.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body id="home" class="scrollspy">
+
+        <!-- navbar -->
+        <div class="navbar-fixed">
+            <nav class="black">
+              <div class="container">
+                <div class="nav-wrapper">
+                  <a href="#home" class="brand-logo">SITI RATNA SARI</a>
+                  <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                  <ul class="right hide-on-med-and-down">
+                    <li><a href="#Biodata">Biodata</a></li>
+                    <li><a href="#Galeri">Galeri</a></li>
+                    <li><a href="#TentangSaya">Tentang Saya</a></li>
+                    <li><a href="#Sebuah Narasi">Sebuah Narasi</a></li>                    
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        
+
+
+          <!-- sidenav -->
+          <ul class="sidenav" id="mobile-nav">
+            <li><a href="">Biodata</a></li>
+            <li><a href="">Galeri</a></li>
+            <li><a href="">Tentang Saya</a></li>  
+            <li><a href="">Sebuah Narasi</a></li>
+          </ul>
+
+
+  <!-- slider -->
+
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="img/1.jpg">
+        <div class="caption left-align">
+          <h3>LIFE GOES ON !</h3>
+          <h5 class="light grey-text text-lighten-3">Hidup adalah rangkaian keputusan.</h5>
+        </div>
+      </li>
+       <li>
+        <img src="img/2.jpg">
+        <div class="caption center-align">
+          <h3>LIFE GOES ON !</h3>
+          <h5 class="light grey-text text-lighten-3">Hidup adalah rangkaian keputusan.</h5>
+        </div>
+      </li>
+       <li>
+        <img src="img/3.jpg">
+        <div class="caption right-align">
+          <h3>LIFE GOES ON !</h3>
+          <h5 class="light grey-text text-lighten-3">Hidup adalah rangkaian keputusan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/11.jpg">
+        <div class="caption left-align">
+          <h3>LIFE GOES ON !</h3>
+          <h5 class="light grey-text text-lighten-3">Hidup adalah rangkaian keputusan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/13.jpg">
+        <div class="caption center-align">
+          <h3>LIFE GOES ON !</h3>
+          <h5 class="light grey-text text-lighten-3">Hidup adalah rangkaian keputusan.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+
+  <!-- TentangSaya -->
+<section id="TentangSaya" class="TentangSaya scrollspy">
+  <div class="container">
+    <div class="row"></div>
+    <h3 class="center light grey-text text-darken-3">Tentang Saya</h3>
+    <div class="progress">
+      <div class="indeterminate"></div>
+  </div>        
+    <h5 class="center light">Saya hanya manusia biasa, yang sedang mencoba belajar berbagai hal yang sekiranya saya bisa.</h5>
+  </div>
+
+  
+</section>
+
+
+
+<!-- Biodata -->
+<section id="Biodata" class="Biodata grey lighten-3 scrollspy">
+  <div class="container">
+    <div class="row">
+      <h3 class="light center grey-text text-darken-3">Biodata</h3>
+      <div class="col m4 s12">
+        <div class="card-panel center">
+          <i class="medium material-icons">coffee</i>
+          <h5>Kopi</h5>
+          <p>Lorem ipsum</p>
+        </div>
+      </div>
+      <div class="col m4 s12">
+        <div class="card-panel center">
+          <i class="medium material-icons">book</i>
+          <h5>Buku</h5>
+          <p>Lorem ipsum</p>
+        </div>
+      </div>
+      <div class="col m4 s12">
+        <div class="card-panel center">
+          <i class="medium material-icons">linked_camera</i>
+          <h5>Foto</h5>
+          <p>Lorem ipsum</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- Galeri -->
+<section id="Galeri" class="Galeri scrollspy">
+  <div class="container">
+    <h3 class="light center amber-text text-darken-3">Galeri</h3>
+    <div class="row">
+      <div class="col m3 s12">
+        <img src="img/2.jpg" class="responsive-img materialboxed">
+      </div>
+      <div class="col m3 s12">
+        <img src="img/3.jpg" class="responsive-img materialboxed">
+      </div>
+      <div class="col m3 s12">
+        <img src="img/4.jpg" class="responsive-img materialboxed">
+      </div>
+      <div class="col m3 s12">
+        <img src="img/5.jpg" class="responsive-img materialboxed">
+      </div>
+   
+
+    </div>
+    <div class="row">
+      <div class="col m3 s12">
+        <img src="img/6.jpg" class="responsive-img materialboxed">
+      </div>
+      <div class="col m3 s12">
+        <img src="img/7.jpg" class="responsive-img materialboxed">
+      </div>
+      <div class="col m3 s12">
+        <img src="img/8.jpg" class="responsive-img materialboxed">
+      </div>
+      <div class="col m3 s12">
+        <img src="img/9.jpg" class="responsive-img materialboxed">
+      </div>
+   
+
+    </div>
+  </div>
+
+
+</section>
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>
+        const sideNav = document.querySelectorAll('.sidenav');
+        M.Sidenav.init(sideNav);
+
+        const slider = document.querySelectorAll('.slider');
+        M.Slider.init(slider,{
+          height: 540,
+          interval: 3000
+        });
+
+        const parallax = document.querySelectorAll('.parallax');
+        M.Parallax.init(parallax);
+        
+
+        const materialbox = document.querySelectorAll('.materialboxed');
+        M.Materialbox.init(materialbox,{
+          inDuration:100,
+          outDuration:100
+        });
+
+
+
+        const scroll = document.querySelectorAll('.scrollspy')
+        M.ScrollSpy.init(scroll,{
+          scrollOffset: 10
+
+          });
+      </script>
+    </body>
+  </html>
+        
